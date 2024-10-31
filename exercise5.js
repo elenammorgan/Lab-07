@@ -1,6 +1,5 @@
 const fs = require('fs'); // Import the 'fs ' module to interact with the file system
-const EventEmitter = require('events'); // Import the 'events ' module to use
-EventEmitter
+const EventEmitter = require('events'); // Import the 'events ' module to use EventEmitter
 const eventEmitter = new EventEmitter(); // Create a new EventEmitter instance
 // Set up an event listener for the 'fileRead ' event
 eventEmitter.on('fileRead', (data) => {
